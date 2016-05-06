@@ -1,0 +1,7 @@
+scm-api:latest
+git-client:latest
+git:latest
+greenballs:latest
+simple-theme-plugin:latest
+docker-build-step:latest
+docker-build-publish:latest
