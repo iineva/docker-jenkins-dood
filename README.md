@@ -16,12 +16,12 @@ This Docker container is highly based on the one explained at the [article by Ad
 ## How to use it
 ### If you wish to obtain the image, you just have to ...
 ```bash
-docker pull axltxl/jenkins-dood
+docker pull ineva/jenkins-dood
 ```
 
 ###However, if you wish to build it instead ...
 ```bash
-git clone https://github.com/axltxl/docker-jenkins-dood.git 
+git clone https://github.com/iineva/docker-jenkins-dood.git 
 cd jenkins-dood
 docker build -t jenkins-dood .
 ```
@@ -32,7 +32,7 @@ docker run -d -v $(which docker):/bin/docker.io \
               -v /var/run/docker.sock:/var/run/docker.sock \
               -v /path/to/your/jenkins/home:/var/jenkins_home \
               -p 8080:8080 \
-              axltxl/jenkins-dood
+              ineva/jenkins-dood
 ```
 
 ###Advantages
